@@ -1,0 +1,151 @@
+/* Reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic form element styles */
+input:not([type=radio]) {
+    width: 100%;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+    font-size: 14px;
+}
+
+button {
+    width: 100px;
+    height: 36px;
+    padding: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for card component */
+.card {
+    margin: auto;
+    display: table;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.card .form {
+    width: 370px;
+    padding: 30px 40px;
+}
+
+.card .space {
+    margin: 15px 0;
+}
+
+.card .title p {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card .account {
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* Styling for event page */
+.eventPage {
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.eventListHeader {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+.table button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.table button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card .form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .eventPage {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .table {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .table th,
+    .table td {
+        padding: 8px;
+    }
+}
