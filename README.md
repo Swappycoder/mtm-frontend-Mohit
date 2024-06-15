@@ -1,14 +1,15 @@
 # React Crud Applications
 
 > A CRUD application which edits user records in React.  
-Live Demo : https://rahulfaujdar.github.io/react-crud-application/
+> Live Demo :
+
 ## Project Setup
 
 ```bash
 # install project
-$ git clone https://github.com/rahulfaujdar/react-crud-application.git
+$ git clone https://github.com/Swappycoder/mtm-frontend-Mohit.git
 # open app directory
-$ cd react-crud-application
+$ cd mtm-frontend-Mohit
 # install dependencies
 $ npm i || npm install
 # start
